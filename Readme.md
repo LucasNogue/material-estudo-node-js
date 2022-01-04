@@ -1,0 +1,1 @@
+Esse projeto foi criado com o objetivo de documentar todo o assunto sobre Node e Javascript que eu estiver estudando
