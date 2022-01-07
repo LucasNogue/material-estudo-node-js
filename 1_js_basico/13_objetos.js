@@ -1,6 +1,6 @@
 /***********************************OBJETOS **********************************/
 
-//CRIANDO UM OBJETO
+//Criando um objeto
 const pessoa = { 
     nome:'Lucas',
     sobrenome:'Nogueira',
@@ -25,19 +25,19 @@ function criarPessoa (nome, sobrenome, idade){
     };
 }
 
-//Atribuindo o valor da função com o objeto em uma variavel
+//Atribuindo o valor da função com o objeto em uma variável
 const pessoa1 = criarPessoa("Carlos", "Santos", 26);
-//Exibindo a variavel
+//Exibindo a variável
 console.log(pessoa1);
 
 
-//CRIANDO UMA VARIAVEL E ATRIBUILDO UM OBJETO QUE TERÁ UM MÉTODO
+//CRIANDO UMA VARIÁVEL E ATRIBUILDO UM OBJETO QUE TERÁ UM MÉTODO
 const pessoa5 = {
     nome: 'Luiz',
     sobrenome: 'Miranda',
     idade: 30,
 
-//Funcoes dentro de objetos se são denominadas como métodos
+//Funções dentro de objetos se são denominadas como métodos
 //Criando um método
     fala(){
         console.log(`A minha idade atual é: ${this.idade}`);

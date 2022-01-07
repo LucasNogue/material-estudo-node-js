@@ -1,11 +1,9 @@
 /***********************************ARRAYS**********************************/
 
-//ARRAYS
-
 //Declarando um array
 const nomes = ['Lucas', 'Luan', 'Adriana', 'Denise', 'Denis', 'Marta','espaço vazio']; //Isso é um array
 
-//Alterando o valor do indice 6
+//Alterando o valor do índice 6
 nomes[6] = 'Leo'; 
 //Adiciona mais um valor no final do array
 nomes.push('Carlos');
@@ -14,11 +12,11 @@ nomes.unshift('Denilson');
 
 //Remove um elemento no final do array
 //nomes.pop() 
-//Remove um elemento no final do array e salva em uma variavel 
+//Remove um elemento no final do array e salva em uma variável 
 //const nomeExcluido = nomes.pop()    
 //Remove um elmento no começo do array
 //nomes.shift()
-//Remove o primeiro elemento do array e salva em uma variavel
+//Remove o primeiro elemento do array e salva em uma variável
 //const aa =nomes.shift(); 
 
 delete nomes[9];

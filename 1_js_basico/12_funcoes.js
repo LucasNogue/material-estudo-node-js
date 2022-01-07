@@ -1,18 +1,18 @@
 /***********************************FUNÇOES**********************************/
 
 //Declarando uma função
-//nome é um parametro
+//nome é um parâmetro
 function saudacao(nome){
 
     //Retornando um valor
     return `Bom dia ${nome}`;
 }
-//Atribuindo o retorno em uma variavel, "Lucas" é um argumento enviado para o parametro
+//Atribuindo o retorno em uma variável, "Lucas" é um argumento enviado para o parâmetro
 const variavel = saudacao("Lucas"); 
-//Exibindo o valor da variavel
+//Exibindo o valor da variável
 console.log(variavel); 
 
-//Parametro e argumento NÃO são a mesma coisa
+//Parâmetro e argumento NÃO são a mesma coisa
 function soma (x, y){
     const resultado = x + y;
     return resultado;

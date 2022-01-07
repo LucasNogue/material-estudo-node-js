@@ -10,7 +10,7 @@ console.log(a, b);
 a = 'Outra coisa';
 console.log(a, b);
 
-//Tipo de dado passado por referencia (Mutável) - array, object, function
+//Tipo de dado passado por referência (Mutável) - array, object, function
 //Neste caso diferente dos tipos primitivos tanto c quanto d ocupam o mesmo espaço na memória
 let c = [1, 2, 3]; 
 let d = c;
@@ -18,7 +18,7 @@ let d = c;
 //possuem o mesmovalor
 console.log(c, d);
 
-//adicionamos mais um valor no array de c onde o d tem referencia
+//adicionamos mais um valor no array de c onde o d tem referência
 c.push(4);
 
 //ambos os valores mudaram

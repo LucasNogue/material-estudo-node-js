@@ -11,7 +11,7 @@ console.log(n1);
 let n2 = Math.ceil(n0); 
 console.log(n2);
 
-//Arredonda o valor para a casa mais proxima
+//Arredonda o valor para a casa mais próxima
 let n3 = Math.round(n0); 
 console.log(n3);
 

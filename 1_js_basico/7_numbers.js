@@ -12,20 +12,20 @@ let n5 = 20.5541531;
 console.log(n1.toString()+n2); 
 console.log(typeof n1);
 
-//Altera o tipo da variavel permanentemente
+//Altera o tipo da variável permanentemente
 n1 = n1.toString();
 console.log(typeof n1);
 
 //Representação binária
 //console.log(n1.toString(2));
 
-//arredonda um número (só exibe com duas casas o número continua o mesmo)
+//Arredonda um número (só exibe com duas casas o número continua o mesmo)
 console.log(n3.toFixed(2));
 
 //Exibindo o verdadeiro valor
 console.log(n3)
 
-//arredondar um número (realmente altera o valor)
+//Arredondar um número (realmente altera o valor)
 n5 = Number(n5.toFixed(2));
 //Mostrando que o valor foi alterado
 console.log(n5)
