@@ -20,7 +20,6 @@ let multiplicador = 2;
 number *= multiplicador;
 //console.log(number); 
 
-
 //Nessa situação por conta da string o js concatena os números, apenas com soma
 let n1 = 5;
 let n2 = '2';

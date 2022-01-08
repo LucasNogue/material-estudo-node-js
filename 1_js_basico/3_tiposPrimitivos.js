@@ -1,6 +1,6 @@
 /***********************************TIPOS PRIMITIVOS**********************************/
 
-/*Dados primitivos em JS   (STRING, NUMBER, UNDEFINED, NULL, BOOLEAN, SYMBOL)*/ 
+/*Dados primitivos em JS (STRING, NUMBER, UNDEFINED, NULL, BOOLEAN, SYMBOL)*/ 
 //EXEMPLOS
 //String
 const nome = 'Lucas'; 
